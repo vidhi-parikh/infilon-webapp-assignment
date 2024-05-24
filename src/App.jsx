@@ -1,10 +1,11 @@
-import React from 'react'
-import './App.css'
+
+import Tabs from './components/Tabs/index.jsx'
 
 function App() {
  
+
   return (
-    <h1>Initial Setup</h1>
+    <Tabs/>
   );
 }
 
