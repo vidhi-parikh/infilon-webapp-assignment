@@ -48,16 +48,16 @@ const index = () => {
           onChange={handleChange}
           aria-label="Tabs for iframe and users"
         >
-          <Tab label="Item One" />
-          <Tab label="Item Two" />
-          <Tab label="Item Three" />
+          <Tab label="Tab 1" />
+          <Tab label="Tab 2" />
+          <Tab label="Tab 3" />
         </Tabs>
       </Box>
       <TabBody value={value} index={0}>
         <Iframe />
       </TabBody>
       <TabBody value={value} index={1}>
-        <Button onClick={(e) => handleChange(e, 2)}>go to tab 2</Button>
+        <Button onClick={(e) => handleChange(e, 2)}>Go to tab 3</Button>
         <Users />
       </TabBody>
       <TabBody value={value} index={2}>
